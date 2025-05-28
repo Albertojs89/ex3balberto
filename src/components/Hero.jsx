@@ -11,10 +11,12 @@ export default function Hero() {
           Quickly link new on-call tickets to similar past incidents and their solutions. All
           directly in Slack the moment an incident happens.
         </p>
-        <Button className="text-black bg-white hover:bg-white/90">
-          Get started →
-        </Button>
+        <button className="text-black bg-white hover:bg-white/90 px-4 py-2 rounded">
+            Get started →
+          </button>
       </div>
     </section>
   );
 }
+
+
