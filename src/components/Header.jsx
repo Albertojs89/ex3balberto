@@ -10,6 +10,8 @@ export default function Header() {
         
         {/* Logo y enlaces de navegación */}
         <div className="flex items-center gap-8">
+        <img src="/Logo.png" alt="Logo Pandem" className="w-6 h-6" />
+
           <Link href="/" className="font-bold text-lg tracking-tight">
             Pandem
           </Link>
@@ -26,7 +28,7 @@ export default function Header() {
         {/* Acciones: Login y Sign Up */}
         <div className="flex items-center gap-4">
           <button className="text-sm text-white/80 hover:text-white transition">Login</button>
-          <button>Sign in</button>
+          <button>Sign Up</button>
 
         </div>
       </div>
