@@ -1,5 +1,8 @@
 import Hero from "../components/Hero";
 import Features from "../components/Features";
+import Setup from "../components/Setup";
+import Contact from "../components/Contact";
+
 
 
 
@@ -24,7 +27,13 @@ export default function Home() {
         {/* seccion 3 */}
         <Features />
 
+        {/* seccion 4 */}
+        
+        <Setup />
 
+        {/* seccion 5 */}
+        <Contact />
+        
 
     </main>
       
